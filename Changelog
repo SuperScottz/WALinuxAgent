@@ -1,5 +1,32 @@
 WALinuxAgent                                                          Changelog
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+7 Jun 2016, WALinuxAgent 2.0.17.rc0
+   . add the support for the rdma driver installing/updating.
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+5 Jun 2016, WALinuxAgent 2.0.16
+   . Handle 410 when reporting health
+   . Add timeout to http request
+   . Fix multiple issues with extension handling
+
+6 Sep 2015, WALinuxAgent 2.0.15
+   . FreeBSD - fix default gateway
+   . Oracle - fix distro name detection
+   . Redhat - Port "chpasswd" from 2.1
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1 Jul 2015, WALinuxAgent 2.0.14
+   . Fix rdma config
+   . Fix page blob uploading for python 2.6
+   . Fix http request error handling
+
+1 Jun 2015, WALinuxAgent 2.0.13
+   . Handle http 410 returned by host
+   . Add support for http proxy
+   . Add support to execute CustomData after provisioning
+   . Add a udev rule for product-uuid
+   . Fix agent path for CoreOS
+   . Update service start/stop command for Ubuntu
+
 15 Jan 2015, WALinuxAgent 2.0.12
    . Add support for page blob status report
 
